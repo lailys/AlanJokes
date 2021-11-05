@@ -11,6 +11,7 @@ function App() {
   const [reset, setReset] = useState(false);
   const [activeWord, setActiveWord] = useState(null);
   const [alanBtnInstance, setAlanBtnInstance] = useState(null);
+  // const [alanBtnInstance, setAlanBtnInstance] = useState(null);
 
   useEffect(() => {
     setAlanBtnInstance(
